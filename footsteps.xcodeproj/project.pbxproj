@@ -11,8 +11,8 @@
 		BAED8ABD260CA1B4002B4040 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED8ABC260CA1B4002B4040 /* Tests_macOS.swift */; };
 		BAED8ABF260CA1B4002B4040 /* footstepsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED8A96260CA1B3002B4040 /* footstepsApp.swift */; };
 		BAED8AC0260CA1B4002B4040 /* footstepsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED8A96260CA1B3002B4040 /* footstepsApp.swift */; };
-		BAED8AC1260CA1B4002B4040 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED8A97260CA1B3002B4040 /* ContentView.swift */; };
-		BAED8AC2260CA1B4002B4040 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED8A97260CA1B3002B4040 /* ContentView.swift */; };
+		BAED8AC1260CA1B4002B4040 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED8A97260CA1B3002B4040 /* MeetingView.swift */; };
+		BAED8AC2260CA1B4002B4040 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED8A97260CA1B3002B4040 /* MeetingView.swift */; };
 		BAED8AC3260CA1B4002B4040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAED8A98260CA1B4002B4040 /* Assets.xcassets */; };
 		BAED8AC4260CA1B4002B4040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAED8A98260CA1B4002B4040 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -36,7 +36,7 @@
 
 /* Begin PBXFileReference section */
 		BAED8A96260CA1B3002B4040 /* footstepsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footstepsApp.swift; sourceTree = "<group>"; };
-		BAED8A97260CA1B3002B4040 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAED8A97260CA1B3002B4040 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		BAED8A98260CA1B4002B4040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAED8A9D260CA1B4002B4040 /* footsteps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footsteps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAED8AA0260CA1B4002B4040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				BAED8A96260CA1B3002B4040 /* footstepsApp.swift */,
-				BAED8A97260CA1B3002B4040 /* ContentView.swift */,
+				BAED8A97260CA1B3002B4040 /* MeetingView.swift */,
 				BAED8A98260CA1B4002B4040 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAED8AC1260CA1B4002B4040 /* ContentView.swift in Sources */,
+				BAED8AC1260CA1B4002B4040 /* MeetingView.swift in Sources */,
 				BAED8ABF260CA1B4002B4040 /* footstepsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAED8AC2260CA1B4002B4040 /* ContentView.swift in Sources */,
+				BAED8AC2260CA1B4002B4040 /* MeetingView.swift in Sources */,
 				BAED8AC0260CA1B4002B4040 /* footstepsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
