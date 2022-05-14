@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA4A9270282D0C9D0096DCCA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A926F282D0C9D0096DCCA /* DetailView.swift */; };
+		BA4A9272282FBAF50096DCCA /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A9271282FBAF50096DCCA /* DetailEditView.swift */; };
 		BA645BD227B6401300110E63 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA645BD127B6401300110E63 /* Theme.swift */; };
 		BA645BD427B641B700110E63 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA645BD327B641B700110E63 /* DailyScrum.swift */; };
 		BA645BD627B6439400110E63 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA645BD527B6439400110E63 /* CardView.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		BA4A926F282D0C9D0096DCCA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BA4A9271282FBAF50096DCCA /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		BA645BD127B6401300110E63 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		BA645BD327B641B700110E63 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		BA645BD527B6439400110E63 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				BA645BD727B6473300110E63 /* TrailingIconLabelStyle.swift */,
 				BAED8A98260CA1B4002B4040 /* Assets.xcassets */,
 				BA645BD927B728A200110E63 /* ScrumsView.swift */,
+				BA4A9271282FBAF50096DCCA /* DetailEditView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			files = (
 				BA645BD427B641B700110E63 /* DailyScrum.swift in Sources */,
 				BA4A9270282D0C9D0096DCCA /* DetailView.swift in Sources */,
+				BA4A9272282FBAF50096DCCA /* DetailEditView.swift in Sources */,
 				BA645BD827B6473300110E63 /* TrailingIconLabelStyle.swift in Sources */,
 				BA645BD227B6401300110E63 /* Theme.swift in Sources */,
 				BA645BDA27B728A200110E63 /* ScrumsView.swift in Sources */,
